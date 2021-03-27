@@ -12,3 +12,4 @@ For a full list of projects to be completed, [click here](https://www.freecodeca
 - [Counter](./counter)
 - [Review Carousel](./review-carousel)
 - [Responsive Navbar](.navbar)
+- [Sidebar](./sidebar)
