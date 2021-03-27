@@ -9,3 +9,5 @@ For a full list of projects to be completed, [click here](https://www.freecodeca
 
 ### *Vanilla Javascript Projects*
 - [Color Flipper](./color-flipper)
+- [Counter](./counter)
+- [Review Carousel](./review-carousel)
