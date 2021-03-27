@@ -11,3 +11,4 @@ For a full list of projects to be completed, [click here](https://www.freecodeca
 - [Color Flipper](./color-flipper)
 - [Counter](./counter)
 - [Review Carousel](./review-carousel)
+- [Responsive Navbar](.navbar)
