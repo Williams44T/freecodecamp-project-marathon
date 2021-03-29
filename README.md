@@ -14,3 +14,4 @@ For a full list of projects to be completed, [click here](https://www.freecodeca
 - [Responsive Navbar](.navbar)
 - [Sidebar](./sidebar)
 - [Modal](./modal)
+- [FAQ Page](./FAQpage)
