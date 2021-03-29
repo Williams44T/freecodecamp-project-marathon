@@ -13,3 +13,4 @@ For a full list of projects to be completed, [click here](https://www.freecodeca
 - [Review Carousel](./review-carousel)
 - [Responsive Navbar](.navbar)
 - [Sidebar](./sidebar)
+- [Modal](./modal)
