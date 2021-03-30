@@ -71,4 +71,69 @@ const menu = [
       img: "./images/item-9.jpeg",
       desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
-  ];
+    {
+        id: 10,
+        title: "steak dinner",
+        category: "dinner",
+        price: 39.99,
+        img: "./images/item-10.jpeg",
+        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+    },
+];
+
+const sectionCenter = document.querySelector('.section-center');
+
+function displayMenuItems(menuItems) {
+    let displayMenu = menuItems.map(item => {
+        return `
+        <article class="menu-item">
+            <img src="${item.img}" class="photo" alt="${item.title}">
+            <div class="item-info">
+                <header>
+                    <h4>${item.title}</h4>
+                    <h4 class="price">${item.price}</h4>
+                </header>
+                <p class="item-text">${item.desc}</p>
+            </div>
+        </article>`;
+    });
+    sectionCenter.innerHTML = displayMenu.join('');
+}
+
+const btnContainer = document.querySelector('.btn-container');
+
+function createBtn(id) {
+    return `<button class="filter-btn" type="button" data-id=${id}>${id}</button>`
+}
+
+function displayButtons() {
+    let seen = {};
+    let filterBtns = [createBtn('all')];
+    menu.forEach(item => {
+        if (!seen[item.category]) {
+            seen[item.category] = true;
+            filterBtns.push(createBtn(item.category));
+        }
+    });
+    btnContainer.innerHTML = filterBtns.join('');
+}
+
+function setBtns() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            let category = e.currentTarget.dataset.id;
+            if (category === 'all') {
+                displayMenuItems(menu);
+            } else {
+                displayMenuItems(menu.filter(item => item.category === category));
+            }
+        });
+    })
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+    displayMenuItems(menu);
+    displayButtons();
+    setBtns();
+});
