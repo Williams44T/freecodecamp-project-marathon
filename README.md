@@ -16,3 +16,4 @@ For a full list of projects to be completed, [click here](https://www.freecodeca
 - [Modal](./modal)
 - [FAQ Page](./FAQpage)
 - [Restaurant Menu Page](./restaurant-menu-page)
+- [Video Background](./video-background)
