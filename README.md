@@ -15,3 +15,4 @@ For a full list of projects to be completed, [click here](https://www.freecodeca
 - [Sidebar](./sidebar)
 - [Modal](./modal)
 - [FAQ Page](./FAQpage)
+- [Restaurant Menu Page](./restaurant-menu-page)
