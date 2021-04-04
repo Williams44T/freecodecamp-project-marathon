@@ -17,3 +17,5 @@ For a full list of projects to be completed, [click here](https://www.freecodeca
 - [FAQ Page](./FAQpage)
 - [Restaurant Menu Page](./restaurant-menu-page)
 - [Video Background](./video-background)
+- [Scroll Navbar](./scroll-nav-bar)
+- [Tabs](./tabs)
