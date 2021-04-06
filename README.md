@@ -19,3 +19,4 @@ For a full list of projects to be completed, [click here](https://www.freecodeca
 - [Video Background](./video-background)
 - [Scroll Navbar](./scroll-nav-bar)
 - [Tabs](./tabs)
+- [Countdown Clock](./countdown-clock)
