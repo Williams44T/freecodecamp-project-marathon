@@ -20,3 +20,4 @@ For a full list of projects to be completed, [click here](https://www.freecodeca
 - [Scroll Navbar](./scroll-nav-bar)
 - [Tabs](./tabs)
 - [Countdown Clock](./countdown-clock)
+- [Lorem Ipsum](./lorem-ipsum)
