@@ -1,5 +1,7 @@
 # Grocery List
 
+![](https://www.freecodecamp.org/news/content/images/size/w1000/2021/03/grocery-list.png)
+
 In this tutorial, you will learn how to update and delete items from a grocery list and create a simple CRUD (Create, Read, Update, and Delete) application.
 
 CRUD plays a very important role in developing full stack applications. Without it, you wouldn't be able to do things like edit or delete posts on your favorite social media platform.  
